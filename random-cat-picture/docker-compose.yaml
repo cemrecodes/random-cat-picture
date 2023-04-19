@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+  frontend:
+    container_name: random-cat-picture-frontend
+    build:
+      context: ./random-cat-picture-frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+  backend:
+    container_name: random-cat-picture-backend
+    build:
+      context: ./random-cat-picture-backend
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    depends_on:
+      - frontend
