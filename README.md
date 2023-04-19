@@ -3,18 +3,9 @@
 This is a React app with Nodejs Express backend. Every time the page is loaded a random cat picture appears!
 
 
-## Installation
-
-Install my-project with npm
-
-```bash
-  npm install my-project
-  cd my-project
-```
-
 ## How To Run
 
-After installing go to the directory where the project is installed.
+After cloning and installing this repository go to the directory where the project is installed.
 
 ```bash
   cd random-cat-picture
